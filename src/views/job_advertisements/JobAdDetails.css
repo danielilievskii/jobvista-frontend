@@ -1,0 +1,116 @@
+
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Cairo', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    //font-family: Poppins, sans-serif;
+}
+
+.details-wrap {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+    /*scrollbar-width: thin; !* "auto" hides scrollbar on some browsers, "thin" shows a thin scrollbar *!*/
+    /*scrollbar-color: #999999 #fff;*/
+}
+
+.min-wrap {
+    min-height: 80vh;
+}
+
+.details-wrap .span-about {
+    color: darkgray;
+}
+
+
+
+.details-wrap-profile {
+    width: 100%;
+    height: auto;
+
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.details-wrap .details-head-info {
+    font-size: 18px;
+}
+
+.job-type, .expired {
+    font-size: 16px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-family: Poppins;
+   position: relative;
+    bottom: 5px;
+    margin-left: 13px;
+}
+
+.expired {
+    background-color: transparent;
+    border: 1px solid indianred;
+    color: indianred;
+    font-weight: 600;
+}
+
+.job-type {
+    background-color: indianred;
+    color: white;
+}
+
+.title {
+    //display: inline-flex;
+    //justify-items: start;
+    display: block;
+}
+
+.title h2, .title span {
+    display: inline-block;
+}
+
+.apply-button {
+    border: 0;
+    border-radius: 8px;
+    width: 45%;
+    background-image: linear-gradient(to right, #a1c4fd 0%, aliceblue 61%, #a1c4fd 100%);
+    background-size: 200% auto;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+
+.apply-button:not(.disabled):hover{
+    background-color: rgb(187, 215, 235);
+    color: black;
+}
+
+.disabled {
+    cursor: default !important;
+    opacity: 0.6;
+}
+
+.apply:not(.expired) {
+    width: 20% !important;
+    background-size: 200% auto;
+
+}
+.apply:not(.expired):hover {
+    width: 20% !important;
+    background-position: right center;
+}
+
+.recruiter-link {
+    color: black;
+    font-size: 30px;
+    text-decoration:none;
+}

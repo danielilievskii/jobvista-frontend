@@ -1,0 +1,65 @@
+.blue-submit-button {
+    font-size: 1rem;
+    padding: 5px 17px;
+    border-radius: 8px;
+    background-color: #06367a;
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.blue-submit-button:hover {
+    background-color: #2e579b;
+}
+
+/*FILTER CONTAINER*/
+
+.filter-container {
+    height: 10%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: auto;
+}
+
+.filter-container .filter-box {
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.filter-container .search-container {
+    position: relative;
+    /*float: left;*/
+    display: inline-block;
+}
+.filter-container .search-container .search-input {
+    width: 400px;
+    display: inline;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    /*margin-right: 15px;*/
+}
+
+.filter-container .search-container .search-input:focus {
+    outline-color: #2684ff;
+}
+
+.filter-container .search-container i {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.filter-container .item {
+    width: 20%;
+    display: inline-block;
+    /*margin-left: 10px;*/
+    /*float: left !important;*/
+}

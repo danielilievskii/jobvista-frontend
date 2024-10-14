@@ -1,0 +1,47 @@
+.about-wrap {
+    margin-top: 30px;
+}
+
+.floating-wrap h3 {
+    font-family: Segoe UI;
+    text-align: center;
+}
+.floating-wrap h4 {
+    text-align: center;
+}
+
+.floating-wrap h2 {
+    font-family: Cairo;
+    font-weight: bold;
+}
+.floating-wrap p {
+    font-family: Ubuntu
+}
+.floating-wrap {
+    background-color:white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.floating-inside-wrap {
+    background-color: rgb(243, 242, 241);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.about-us-img {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 0;
+}
+
+.start-title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Segoe UI;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,255 @@
+.custom-container {
+    width: 65% !important;
+    max-width: 1500px !important;
+    margin: auto;
+}
+
+.application-title {
+    font-family: "Segoe UI";
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #CFCFCF;
+}
+.application-title h3 {
+    font-weight: 500;
+}
+
+.response-message {
+    background-color: floralwhite;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.application-card-wrapper {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    gap: 3px;
+}
+
+.application-card.changed {
+    background-color: aliceblue;
+}
+
+.application-card-wrapper .expand-section {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 !important;
+}
+
+.application-card-wrapper.expanded .expand-section {
+    max-height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: 10px;
+  /*  transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;*/
+}
+
+.expand-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.application-card {
+    font-family: Poppins;
+     border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*height: auto;*/
+    padding: 20px 20px;
+    display: flex;
+}
+.application-card .app-job-seeker-pic {
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.application-card .app-job-seeker-pic img {
+    border-radius: 50%;
+}
+
+.application-card .app-company-logo {
+    width: 8%;
+}
+
+.application-card .app-info {
+    width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.application-card .app-info .jobAd-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    /*text-transform: uppercase;*/
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+.
+
+.application-card .app-info .contact-info {
+    display: inline-flex;
+    gap: 30px;
+}
+.application-card .app-info .contact-info .contact-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px
+}
+
+.application-card .app-info .contact-info .contact-item span {
+   color: darkgray;
+}
+
+.application-card .app-status {
+    width: 38%;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.application-card .app-status .select {
+    width: 45%;
+    display: inline-block;
+}
+
+.app-status .status {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.application-button {
+    border: 0;
+    border-radius: 8px;
+    width: auto;
+    background-image: linear-gradient(to bottom, #dddddd, #f0f0f0);
+    background-color: #dddddd;
+    color: #333333;
+
+    font-weight: 700;
+    padding: 8px 13px;
+}
+
+.application-button:hover {
+    background: linear-gradient(to bottom, #bbbbbb, #dddddd);
+    color: #333333;
+}
+
+/*.application-card:hover {*/
+/*    transform: translate(0, 8px);*/
+/*    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+.multi-button button{
+    /*font-size: 5vmin;*/
+    padding: .5em 1em;
+    background: #fff;
+    color: #4A5568;
+    border: 0px solid #A0AEC0;
+    //margin: .1em;
+    transition: background .2s ease, color .2s ease, box-shadow .2s ease, transform .2s ease;
+    box-shadow: 0 0 0 #BEE3F8;
+    transform: translateY(0);
+}
+.multi-button button:first-of-type{
+    border-radius: .5em 0 0 .5em;
+}
+.multi-button button:last-of-type{
+    border-radius: 0 .5em .5em 0;
+}
+.multi-button button i{
+    color: #A0AEC0;
+    margin-right: .3em;
+    transition: all .2s ease-out;
+}
+.multi-button:hover button{
+    color: #A0AEC0;
+}
+
+.multi-button:hover button:hover{
+    background: #D53F8C;
+    color: #fff;
+    box-shadow: 0 0 0.8em 0 rgba(213, 63, 140, .8);
+    transform: translateY(-.2em);
+}
+.multi-button:hover button i{
+    color: #CBD5E0;
+}
+.multi-button:hover button:hover i{
+    color: #FED7E2;
+    transform: rotate(-10deg);
+}
+
+.application-filters {
+    gap: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Default Span Styles */
+.application-filters span {
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: rgba(1,38,90,0.9);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Icon Styles */
+.application-filters span i {
+    margin-right: 5px;
+}
+
+/* Hover Effect */
+.application-filters span:hover {
+    background-color: rgba(1,38,90,0.9);
+    color: white;
+}
+
+.application-filters span:hover i {
+    color: inherit; /* Makes the icon inherit the color from the parent span */
+}
+
+/* Selected State */
+.application-filters span.selected {
+    background-color: rgba(1,38,90,0.9);
+    color: white;
+}
+
+.application-filters span.selected i {
+    color: inherit; /* Ensures icon color matches the selected state */
+}

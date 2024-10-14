@@ -1,0 +1,22 @@
+.profile-pic {
+    position: absolute;
+    border-radius: 100px;
+    border: 5px solid rgb(243, 242, 241);
+    bottom: -110px;
+    left: 70px;
+    object-fit: contain;
+}
+
+/*.floating-wrap {*/
+/*    position: relative;*/
+/*}*/
+
+/*.floating-wrap h5 {*/
+/*    z-index: 100;*/
+/*    position: absolute;*/
+/*    top: -25px;*/
+/*    left: 20px;*/
+/*    padding: 5px 10px;*/
+/*    background: white;*/
+/*    border-radius: 10px;*/
+/*}*/

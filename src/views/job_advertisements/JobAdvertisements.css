@@ -1,0 +1,126 @@
+.photo-box {
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.photo-box div img {
+    background-color: rgb(243, 242, 241);
+}
+
+.company-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: initial;
+    display: block;
+    border-radius: 10px;
+}
+
+.company-logo {
+    position: absolute;
+    border-radius: 25px;
+    border: 5px solid rgb(243, 242, 241);
+    bottom: -110px;
+    left: 70px
+}
+
+.info-tab {
+    margin: 20px 10px;
+    position: absolute;
+    left: 280px;
+    font-family: Poppins;
+}
+
+.photo-box .edit-buttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: -100px;
+}
+
+.edit-buttons .exclamation {
+    display: inline;
+    position: relative;
+}
+
+.fa-circle-exclamation {
+    color: #d80e0e;
+
+}
+
+.edit-buttons .modal-wrap .react-responsive-modal-modal .head-modal {
+    background-color: white !important;
+    color: black !important;
+}
+
+.edit-buttons button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 13px;
+    transition: 0.1s;
+}
+
+.edit-buttons button:hover {
+    /*background-color: #F2F2F2;*/
+    background-color: lightgray;
+}
+
+.my-workspace {
+    position: relative;
+}
+
+.custom-text-area {
+    height: 14rem !important;
+}
+
+.line-separator {
+    width: 95%;
+    border-top: 1px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.confirmation-bar {
+    position: fixed;
+    //top: 80px;
+    left: 0;
+    width: calc(100% - 17px);
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust background color as needed */
+    //background-color: #7D7D7A; /* Adjust background color as needed */
+    padding: 10px;
+    z-index: 11;
+
+}
+.confirmation-bar-buttons {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 60px
+}
+.confirmation-bar .confirmation-bar-buttons button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    transition: 0.1s;
+}
+.confirmation-bar .confirmation-bar-buttons .cancel-changes {
+    background-color: #8D8D8B;
+}
+
+.confirmation-bar .confirmation-bar-buttons .cancel-changes:hover {
+    background-color: #9B9A99;
+}
+
+.confirmation-bar .confirmation-bar-buttons .save-changes {
+    background-color: #0866FF;
+
+}
+.confirmation-bar .confirmation-bar-buttons .save-changes:hover {
+    background-color: dodgerblue;
+}
+

@@ -1,0 +1,29 @@
+.error-message {
+    color: red;
+    padding: 5px 5px;
+}
+
+
+.auth-primary-btn{
+    background-color: rgba(1,38,90,0.80);
+    //background-color: #a1c4fd ;
+    color: white;
+}
+.auth-primary-btn:hover {
+    background-color: rgba(1,38,90,1);
+    color: white;
+}
+
+.auth-secondary-btn {
+    border: 2px solid rgba(1,38,90,0.7);
+    color: midnightblue;
+}
+
+.auth-secondary-btn:hover {
+    background-color: rgba(1,38,90,0.8);
+    color: white;
+}
+
+iframe{
+    margin: auto !important;
+}
